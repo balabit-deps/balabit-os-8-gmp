@@ -1,5 +1,6 @@
 Source: gmp
-Maintainer: Debian Science Team <debian-science-maintainers@lists.alioth.debian.org>
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+XSBC-Original-Maintainer: Debian Science Team <debian-science-maintainers@lists.alioth.debian.org>
 Uploaders: Steve M. Robbins <smr@debian.org>
 Section: libs
 Priority: optional

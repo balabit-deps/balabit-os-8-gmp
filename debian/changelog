@@ -1,3 +1,12 @@
+gmp (2:6.2.0+dfsg-4ubuntu0.1) focal-security; urgency=medium
+
+  * SECURITY UPDATE: Integer overflow
+    - debian/patches/CVE-2021-43618.patch: prevent integer overflow in
+    function mpz_inp_raw in mpz/inp_raw.c on 32-bit platforms.
+    - CVE-2021-43618
+
+ -- Fabian Toepfer <fabian.toepfer@canonical.com>  Tue, 11 Oct 2022 19:53:21 +0200
+
 gmp (2:6.2.0+dfsg-4) unstable; urgency=medium
 
   [ Steve Robbins ]
